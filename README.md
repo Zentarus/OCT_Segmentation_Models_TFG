@@ -12,6 +12,11 @@ Contiene el código, utilidades y datos asociados al modelo MGU-Net. Incluye scr
 ## oct_nnUNet
 Incluye todo lo necesario para el entrenamiento, evaluación y análisis del modelo nnU-Net. Contiene scripts de entrenamiento, evaluación, visualización y métricas, así como la estructura de datos y resultados generados.
 
+**IMPORTANTE:**  
+> Los datos del **dataset de John Hopkins** (contenido de directorio "nnUNet_raw") **NO están incluidos en este repositorio** debido a su gran tamaño.
+> Deben descargarse manualmente desde el siguiente enlace de Google Drive:  
+>  https://drive.google.com/drive/folders/1rqZhwFiDU08k7adqdkeuSxVNZD7aI1m_?usp=sharing 
+
 - `oct_JH/`: Estructura de datos preprocesados, datos brutos y resultados de nnU-Net.
 - `SERVET_NNUNET/`: Volúmenes NIfTI con datos del dataset SERVET.
 - `utils/`: Scripts de apoyo para el procesamiento y análisis de resultados.
