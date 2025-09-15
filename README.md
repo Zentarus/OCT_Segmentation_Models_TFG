@@ -1,10 +1,9 @@
 # OCT_Segmentation_Models_TFG
 ---
 ## oct_MGUNet
-Contiene el código, utilidades y datos asociados al modelo MGU-Net. Incluye scripts de generación de información, carpetas de datos y resultados de inferencia, así como utilidades específicas para el preprocesado y análisis de datos.
+Contiene el código, utilidades y datos asociados al modelo MGU-Net. Incluye scripts de generación de información y resultados de inferencia, así como utilidades específicas para el preprocesado y análisis de datos.
 
 - `oct_JH/`: Subcarpetas para checkpoints, datos y resultados de inferencia.
-- `SERVET_MGUNET/`: Imágenes adaptadas a la red sobre el dataset SERVET.
 - `utils/`: Herramientas y scripts auxiliares para el manejo y análisis de datos.
 
 ---
@@ -14,11 +13,10 @@ Incluye todo lo necesario para el entrenamiento, evaluación y análisis del mod
 
 **IMPORTANTE:**  
 > Los datos del **dataset de John Hopkins** (contenido de directorio "nnUNet_raw") **NO están incluidos en este repositorio** debido a su gran tamaño.
-> Deben descargarse manualmente desde el siguiente enlace de Google Drive:  
->  https://drive.google.com/drive/folders/1rqZhwFiDU08k7adqdkeuSxVNZD7aI1m_?usp=sharing 
+> Deben descargarse manualmente desde el siguiente enlace:  
+> http://medic.rad.jhmi.edu/index.php?title=OCT_Data
 
 - `oct_JH/`: Estructura de datos preprocesados, datos brutos y resultados de nnU-Net.
-- `SERVET_NNUNET/`: Volúmenes NIfTI con datos del dataset SERVET.
 - `utils/`: Scripts de apoyo para el procesamiento y análisis de resultados.
 
 ---
