@@ -21,8 +21,8 @@ Incluye todo lo necesario para el entrenamiento, evaluación y análisis del mod
 
 ---
 
-## RNNs
-Carpeta destinada a la experimentación y desarrollo de modelos de redes neuronales recurrentes (RNN). Incluye implementaciones y utilidades tanto para MGU-Net como para nnU-Net en subcarpetas independientes.
+## CNNs
+Carpeta destinada a la experimentación y desarrollo de modelos de redes neuronales convolucionales (CNNs). Incluye implementaciones y utilidades tanto para MGU-Net como para nnU-Net en subcarpetas independientes.
 
 - `MGU-Net/`: Código y recursos específicos para el modelo MGU-Net.
 - `nnUNet/`: Código y recursos específicos para el modelo nnU-Net.
